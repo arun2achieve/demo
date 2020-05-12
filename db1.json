@@ -1,0 +1,97 @@
+[{
+      displayName: 'Home',
+      iconName: 'close',
+	  route: '/',
+    },
+    {
+      displayName: 'Configuration',
+      iconName: 'close',
+      children: [
+			{
+			  displayName: 'Merchant Details',
+			  iconName: 'group',
+			  route: '/dashboard'
+			},
+			{
+			  displayName: 'Password Policy',
+			  iconName: 'person',
+			  route: ''
+			}
+		]
+    },
+	{
+	  displayName: 'User',
+	  iconName: 'speaker_notes',
+	  children: [
+		{
+		  displayName: 'Group',
+		  iconName: 'star_rate',
+		  route: 'material-design',
+		  children: [
+			  {
+				displayName: 'Add',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  },
+			  {
+				displayName: 'Edit',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  },
+			  {
+				displayName: 'Delete',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  },
+			  {
+				displayName: 'View',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  }
+		  ]			  			  
+		},
+		{
+		  displayName: 'User Management',
+		  iconName: 'star_rate',
+		  route: 'material-design',
+		  children: [
+			  {
+				displayName: 'Add',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  },
+			  {
+				displayName: 'Edit',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  },
+			  {
+				displayName: 'Delete',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  },
+			  {
+				displayName: 'View',
+				iconName: 'star_rate',
+				route: 'material-design',
+			  }
+			]
+		}
+	  ]			  			  
+	},		
+	{
+	  displayName: 'Reports',
+	  iconName: 'close',
+	  children: [
+			{
+			  displayName: 'Audit log',
+			  iconName: 'group',
+			  route: '/dashboard'
+			},
+		]
+	},
+	{
+	  displayName: 'Reports',
+	  iconName: 'close',
+	  route: '/dashboard'
+	}]
